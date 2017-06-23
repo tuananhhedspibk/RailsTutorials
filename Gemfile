@@ -22,3 +22,18 @@ group :development do
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :test do
+  gem "rspec-collection_matchers"
+  gem "rubocop", require: false
+  gem "rubocop-checkstyle_formatter", require: false
+  gem "scss_lint", require: false
+  gem "scss_lint_reporter_checkstyle", require: false
+  gem "rails_best_practices"
+  gem "brakeman", require: false
+  gem "bundler-audit"
+  gem "reek"
+  gem "rspec-activemodel-mocks"
+  gem "rspec-rails", "~> 3.6"
+  gem "eslint-rails", git: "https://github.com/octoberstorm/eslint-rails"
+end
