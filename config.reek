@@ -7,6 +7,8 @@ InstanceVariableAssumption:
   enabled: false
 FeatureEnvy:
   enabled: false
+UtilityFunction:
+    enabled: false
 TooManyStatements:
   enabled: true
   exclude:

@@ -1,0 +1,50 @@
+vi:
+  app_name: "Ứng dụng Rails đơn giản"
+  sample_app: "Ứng dụng đơn giản"
+  home:
+    home_page_show: "Đây là trang chủ của"
+    sample_app_title: "về ứng dụng đơn giản."
+    signup: "Đăng kí ngay!"
+    welcome:
+      welcome_1: "Chào mừng"
+      welcome_2: "Chào mừng tới"
+    home_name: "Trang chủ"
+  about:
+    about_1: "Thông Tin"
+    about_2: "Thông tin"
+  login:
+    login_1: "Đăng Nhập"
+    login_2: "Đăng nhập"
+    login_3: "đăng nhập"
+  help:
+    help_1: "Trợ Giúp"
+    help_2: "Trợ giúp"
+  by:
+    by_1: "Bởi"
+    by_2: "bởi"
+  contact:
+    contact_1: "Liên Hệ"
+    contact_2: "Liên hệ"
+  news: "Tin tức"
+  help_page:
+    help_page_1: "Xem trợ giúp của Ruby on Rails hướng dẫn tại"
+    help_page_2: "Để xem trợ giúp của ứng dụng này tại"
+    help_page_3: "Trang trợ giúp của Rails"
+    help_page_4: "Sách hướng dẫn Ruby on Rails"
+  contact_page: 
+    contact_page_1: "Tương tác với Ruby on Rails hướng dẫn về ứng dụng đơn giản này tại"
+    contact_page_2: "trang tương tác"
+  and: "và"
+  book: "cuốn sách"
+  isa: "là một"
+  about_page:
+    about_page_1: "để dạy dev web với"
+    about_page_2: "Đây là ứng dụng đơn gỉan cho tutorial"
+    about_page_3: "loạt screencast"
+  signup: "Đăng kí"
+  signup_page:
+    signup_page_1: "Tìm tôi tại"
+    signup_page_2: "Users#đăng kí mới"
+  tut: "hướng dẫn"
+  rails: "Ruby on rails"
+  rails_tut: "Hướng dẫn Ruby on rails"

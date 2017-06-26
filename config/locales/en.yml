@@ -20,4 +20,52 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  app_name: "Rails Sample App"
+  sample_app: "Sample App"
+  home:
+    home_page_show: "This is the home page for"
+    rails_app_title: "sample application."
+    signup: "Sign up now!"
+    welcome:
+      welcome_1: "Welcome"
+      welcome_2: "Welcome to the"
+    home_name: "Home"
+  about:
+    about_1: "About"
+    about_2: "about"
+  login:
+    login_1: "Log In"
+    login_2: "Log in"
+    login_3: "log in"
+  help:
+    help_1: "Help"
+    help_2: "help"
+  by:
+    by_1: "By"
+    by_2: "by"
+  contact:
+    contact_1: "Contact"
+    contact_2: "contact"
+  news: "News"
+  help_page:
+    help_page_1: "Get help on the Ruby on Rails Tutorial at the"
+    help_page_2: "To get help on this sample app, see the"
+    help_page_3: "Rails tutorial help page"
+    help_page_4: "Ruby on Rails Tutorial book"
+  contact_page: 
+    contact_page_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    contact_page_2: "contact page"
+  and: "and"
+  book: "book"
+  isa: "is a"
+  about_page:
+    about_page_1: "to teach web development with"
+    about_page_2: "This is the sample application for the tutorial"
+    about_page_3: "screencast series"
+  signup: "Sign up"
+  signup_page:
+    signup_page_1: "Find me in"
+    signup_page_2: "Users#new"
+  tut: "Tutorial"
+  rails: "Ruby on rails"
+  rails_tut: "Ruby on rails Tutorial"
