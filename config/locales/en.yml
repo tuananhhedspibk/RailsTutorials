@@ -69,3 +69,7 @@ en:
   tut: "Tutorial"
   rails: "Ruby on rails"
   rails_tut: "Ruby on rails Tutorial"
+  create_account: "Create my account"
+  error: "error"
+  form_contain: "The form contains"
+  welcome_to_app: "Welcome to the Sample App!"

@@ -2,11 +2,16 @@
 @import 'bootstrap';
 
 $gray-lighter: #eaeaea;
+$gray-lighter2: #bbb;
 $gray-light: #777;
 $gray-darker: #222;
 $gray-medium: #555;
 $white: #fff;
+$red-color: #dc0000;
 
+@mixin boxsizing {
+  box-sizing: border-box;
+}
 
 // universal
 
@@ -108,5 +113,87 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+}
+
+// miscellaneous
+
+.debugdump {
+  @include boxsizing;
+  clear: both;
+  float: left;
+  margin-top: 45px;
+  width: 100%;
+}
+
+// sidebar
+
+aside {
+  section {
+    margin-top: 20px;
+    padding: 10px 0;
+
+    .userinfo {
+      margin-top: 20px;
+    }
+
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+
+    span {
+      display: block;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+
+    h1 {
+      font-size: 1.4em;
+      letter-spacing: -1px;
+      margin-bottom: 3px;
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.gravataredit {
+  margin-top: 15px;
+}
+
+// forms
+
+input,
+textarea,
+select,
+.uneditable-input {
+  @include boxsizing;
+  border: 1px solid $gray-lighter2;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input {
+  height: auto;
+}
+
+.errorexplanation {
+  color: $red-color;
+
+  ul {
+    color: $red-color;
+    margin: 0 0 30px;
+  }
+}
+
+.fieldwitherrors {
+  .form-control {
+    color: $state-danger-text;
   }
 }

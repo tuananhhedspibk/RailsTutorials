@@ -48,3 +48,7 @@ vi:
   tut: "hướng dẫn"
   rails: "Ruby on rails"
   rails_tut: "Hướng dẫn Ruby on rails"
+  create_account: "Tạo tài khoản"
+  error: "lỗi"
+  form_contain: "Form này bao gồm"
+  welcome_to_app: "Chào mứng tới Ứng dụng Rails đơn giản"
