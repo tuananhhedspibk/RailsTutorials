@@ -84,3 +84,4 @@ en:
   password: "Password"
   password_confirm: "Password Confirm"  
   name: "Name"
+  remember_me: "Remember me on this computer"
