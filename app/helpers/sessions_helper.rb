@@ -24,6 +24,19 @@ module SessionsHelper
     end
   end
 
+  def correct_user
+    redirect_to root_url unless @user.current_user? current_user
+  end
+
+  def redirect_back_or default
+    redirect_to session[:forwarding_url] || default
+    session.delete :forwarding_url
+  end
+
+  def store_location
+    session[:forwarding_url] = request.original_url if request.get?
+  end
+
   def logged_in?
     current_user.present?
   end
