@@ -75,3 +75,13 @@ vi:
   user_deleted: "Đã xóa người dùng"
   save_change: "Lưu thay đổi"
   create_account: "Tạo tài khoản"
+  welcome_mail: "Chào mừng tới ứng dụng đơn giản! Click vào link bên
+    dưới để kích hoạt tài khoản của bạn"
+  active: "Kích hoạt"
+  check_mail: "Kiểm tra email để kích hoạt tài khoản của bạn"
+  account_activated: "Tài khoản đã được kích hoạt"
+  account_not_activated: "Tài khoản chưa được kích hoạt"
+  account_activation: "Kích hoạt tài khoản"
+  invalid_active_link: "Link kích hoạt không hợp lệ"
+  hi: "Xin chào"
+  find_me: "tìm tôi tại"

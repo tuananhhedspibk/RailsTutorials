@@ -96,3 +96,13 @@ en:
   user_deleted: "User deleted"
   save_change: "Save changes"
   create_account: "Create my account"
+  welcome_mail: "Welcome to the Sample App! Click on the link
+    below to activate your account:"
+  active: "Active"
+  check_mail: "Please check your email to activate your account"
+  account_activated: "Account activated!"
+  account_not_activated: "Account not activated!"
+  account_activation: "Account activation"
+  invalid_active_link: "Invalid activation link"
+  hi: "hi"
+  find_me: "find me at"
