@@ -16,4 +16,9 @@ class ApplicationController < ActionController::Base
       redirect_to login_url
     end
   end
+
+  def render_not_found
+    render file: Rails.root.join("public", "404.html"),
+      status: 404
+  end
 end
