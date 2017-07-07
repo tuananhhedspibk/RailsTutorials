@@ -58,9 +58,4 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     render_not_found unless @user
   end
-
-  def render_not_found
-    render file: Rails.root.join("public", "404.html"),
-      status: 404
-  end
 end

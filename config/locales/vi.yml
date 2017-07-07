@@ -85,3 +85,18 @@ vi:
   invalid_active_link: "Link kích hoạt không hợp lệ"
   hi: "Xin chào"
   find_me: "tìm tôi tại"
+  forgot_pass: "(Quên mật khẩu)"
+  submit: "Gửi lên"
+  email_reset_pass: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+  email_not_found: "Không tìm thấy địa chỉ email"
+  reset_pass: "Thiết lập lại mật khẩu"
+  reset_pass_instruct:
+    reset_pass_instruct1: "Click vào link bên dưới để thiết lập lại mật khẩu"
+    reset_pass_instruct2: "Link này sẽ hết hạn trong vòng 2 giờ."
+    reset_pass_instruct3: "Nếu bạn không yêu cầu thiết lập lại mật khẩu, 
+      hãy bỏ qua email này và mật khẩu của bạn sẽ được gĩư nguyên."
+  update_pass: "Cập nhật mật khẩu"
+  cant_empty: "không thể trống"
+  pass_reseted: "Mật khẩu đã được thiết lập lại."
+  pass_expired: "Password reset đã hết hạn"
+  confirm: "Xác nhận"
