@@ -23,3 +23,12 @@ config/database.yml
 config/secrets.yml
 .framgia-ci-reports/*
 .framgia-ci-result.temp.yml
+
+# Ignore uploaded test images.
+/public/uploads
+
+config/settings.local.yml
+config/environments/*.local.yml
+config/settings/*.yml
+public/javascripts/i18n.js
+public/javascripts/translations.js
