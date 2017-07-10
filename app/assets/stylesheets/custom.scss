@@ -1,6 +1,8 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+$gray: #808080;
+$blue: #00f;
 $gray-lighter: #eaeaea;
 $gray-lighter2: #bbb;
 $gray-lighter3: #e8e8e8;
@@ -166,12 +168,69 @@ aside {
 
 .gravatar {
   float: left;
+  height: 50px;
   margin-right: 10px;
+  width: 50px;
 }
 
 .gravatar-edit {
   display: inline-block;
   margin-top: 15px;
+}
+
+.stats {
+  margin-top: 0;
+  overflow: auto;
+  padding: 0;
+
+  a {
+    border-left: 1px solid $gray-lighter;
+    color: $gray;
+    float: left;
+    padding: 0 10px;
+
+    &:first-child {
+      border: 0;
+      padding-left: 0;
+    }
+
+    &:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+
+  strong {
+    display: block;
+  }
+}
+
+.user-avatars {
+  margin-top: 10px;
+  overflow: auto;
+
+  .gravatar {
+    margin: 1px;
+  }
+
+  a {
+    padding: 0;
+  }
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+
+  .follow {
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 1px solid $gray-lighter;
+    overflow: auto;
+    padding: 10px 0;
+  }
 }
 
 // forms
@@ -218,19 +277,6 @@ input {
 .session-remember-me {
   margin-left: 0;
   width: auto;
-}
-
-// Users index
-
-.users {
-  list-style: none;
-  margin: 0;
-
-  li {
-    border-bottom: 1px solid $gray-lighter;
-    overflow: auto;
-    padding: 10px 0;
-  }
 }
 
 // microposts
