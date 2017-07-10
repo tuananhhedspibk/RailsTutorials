@@ -132,3 +132,8 @@ en:
   micropost_deleted: "Micropost deleted"
   capacity_mess: "should be less than 5MB"
   alert: "Maximum file size is 5MB. Please choose a smaller file."
+  following: "following"
+  followers: "followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  microposts: "Microposts:"
